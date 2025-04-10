@@ -21,14 +21,6 @@ function MyComponent (){
         e.target.textContent = "changed",
         setIsEmployed(!isEmployed);
     }
-
-
-
-
-    
-
-
-
     return(
         <div>
             <p>Name:{name} </p>
