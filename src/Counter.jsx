@@ -21,9 +21,11 @@ function Counter (){
     return (  
         <div>
             <p className="count-container">{count}</p>
+            <div className="btn">
             <button className="decrement-container" onClick={handleDecrement}>Decrement</button>
             <button className="reset-container" onClick={handleReset}>Reset</button>
             <button className="increment-container" onClick={handleIncrement}>Increment</button>
+            </div>
         </div>
 
     )
